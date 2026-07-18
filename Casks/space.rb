@@ -1,13 +1,13 @@
 cask "space" do
-  version "1.0.0"
+  version "1.0.1"
 
   on_arm do
-    sha256 "b1f203e85aec42265161b52f6f226e79af7956bbe1aa1e95d6edb3d395c6d2bc"
+    sha256 "303139a5c999b1382f22bc47b09494528a6b197d086646605ead9a9d3bcb1f22"
     url "https://github.com/tuyoleni/space/releases/download/v#{version}/space-darwin-arm64.zip"
   end
 
   on_intel do
-    sha256 "1955fd81f10914ce10b1f5a382d6e5e904224c2b94733e422638a550c9c42ae3"
+    sha256 "5f8fc5e1372539766e0ae47280f6658a52cada7cc70c6fe1014f1a481e19d799"
     url "https://github.com/tuyoleni/space/releases/download/v#{version}/space-darwin-x64.zip"
   end
 
