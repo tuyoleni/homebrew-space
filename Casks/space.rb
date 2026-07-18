@@ -16,7 +16,7 @@ cask "space" do
   homepage "https://github.com/tuyoleni/space"
 
   auto_updates false
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Space.app"
 
